@@ -1,11 +1,12 @@
+# https://learn.co/tracks/fswd-prework-2-01/fswd-prework-2-01-fswd-prework/fswd-prework-2-01-fswd-prework-programming-as-conversation-part-4-collection-data-types-array-and-hash/finding-the-maximum-value-in-an-array-lab
 def find_max_value(array)
-  count = 0
+  i = 0
   max_value = -1
-  while count < array.length do
-    if max_value < array[count]
-      max_value = array[count]
+  while i < array.length do
+    if max_value < array[i]
+      max_value = array[i]
     end
-    count += 1
+    i += 1
   end
   max_value
 end
